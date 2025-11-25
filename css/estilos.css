@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Parisienne&family=Satisfy&display=swap');
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 0 20px 0 20px;
+    padding: 0 20px;
+    background-color: black;
+    text-align: justify;
+    background-image: url(/images/fondo\ cafe.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 5px;
+    color: darkgoldenrod;
+    font-family: "Parisienne", cursive;
+}
+#eslogan {
+    margin: auto;
+    font-size: 2em;
+    color: cornsilk;
+    border: 2px solid cornsilk;
+    width: 40%;
+    font-family: "Caveat", cursive;
+    text-align: center;
+}
+
+h2 {
+    color: #FFE4C4 ;
+    font-family: "Pacifico", cursive;
+}
+
+a:link {color: white;}
+a:hover {font-weight: bold;}
+a:active {color: darkgoldenrod;}
+a {
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: "Pacifico", cursive;
+}
+
+ .texto-normal{
+    font-family: "Satisfy", cursive;
+    font-size: 1.2em;
+    color: #FFE4C4;
+    text-align: justify;
+    line-height: 2;
+    padding: 30px;
+}
+
+#logo-cafe {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+#contenedor-logo {
+    text-align: center;
+}
+ul li {
+    color: white;
+}
+
+
