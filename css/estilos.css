@@ -6,7 +6,7 @@ body {
     padding: 0 20px;
     background-color: black;
     text-align: justify;
-    background-image: url(/images/fondo\ cafe.jpg);
+    background-image: url("../images/fondo\ cafe.jpg");
     background-size: cover;
 }
 h1{
