@@ -104,3 +104,24 @@ label {
     font-size: 1.5em;
     
 }
+#enviar {
+    font-family: "Pacifico", cursive;
+    font-size: 1.2em;
+    background-color: beige;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    color: black;
+    cursor: pointer;
+}
+
+#reiniciar {
+    font-family: "Pacifico", cursive;
+    font-size: 1.2em;
+    background-color: beige;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    color: black;
+    cursor: pointer;
+}
