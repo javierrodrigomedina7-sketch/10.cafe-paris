@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café París</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Café París</h1>
+    <p id="eslogan">Un momento de relax</p>
+    <ul>
+        <li> <a href="index.html">Principal</a> </li>
+        <li> <a href="carta.html">Nuestra carta</a> </li>
+        <li> <a href="contacto.html">Contacte con nosotros</a> </li>
+    </ul>
+
+    <h2>Contácte con Nosotros</h2>
+    <form method="get" action="procesacontacto.php">
+
+    <p>
+        <label for="name">Nombre y apellidos:</label> 
+        <input type="text" id="name" required placeholder="Escriba su nombre completo" name="name" 
+        maxlength="50">
+    </p>
+
+    <p>
+        <label for="fecha-nac">Fecha de Nacimiento:</label>
+        <input type="date" required id="fecha-nac" name="fecha-nac">
+    </p>
+
+    <p>
+        <label for="">Suele consumir:</label> 
+        <label for="cafe">Cafe</label>
+        <input type="radio" checked name="consume" id="cafe" value="caf">
+
+        <label for="te">Té</label>
+        <input type="radio" name="consume" id="te" value="te">
+        
+        <label for="ambos">Ambos</label>
+        <input type="radio" name="consume" id="ambos" value="ambos">
+    </p>
+
+    <p>
+        <label for="cantidad-cafe">Número de cafés al día:</label>
+        <input type="number" min="2" max="5" id="cantidad-cafe" name="cantidad-cafe">
+    </p>
+
+    <p>
+        <label for="">Seleccione su cafetería:</label>
+        <select name="cafeteria" id="">
+        <option value="mad" selected>Madrid</option>
+        <option value="barc">Barcelona</option>
+        <option value="sev">Sevilla</option>
+        </select>
+    </p>
+
+    <p>
+        <input type="checkbox" checked name="deseo" id="deseo">
+        <label for="deseo">Deseo recibir información sobre novedades y ofertas</label>
+        
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reiniciar">
+    </p>
+
+    </form>
+    
+    
+</body>
+</html>

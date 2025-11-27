@@ -61,5 +61,46 @@ a {
 ul li {
     color: white;
 }
+/*estilos de la carta*/
 
+.fotocarta {
+    height: 200px;
+    width: 200px;
+}
 
+.categorias {
+    background-color: darkgoldenrod;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
+}
+
+table, td, th {
+    border: 3px solid darkgoldenrod;
+    border-collapse: collapse;
+    vertical-align: center;
+    width: 50%;
+    padding: 20px;
+}
+table {
+    background-color: cornsilk;
+    font-family: "Satisfy", cursive;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+}
+
+form {
+    border: 2px solid darkgoldenrod;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    background-color: black;
+}
+
+label {
+    font-family: "Caveat", cursive;
+    color: cornsilk;
+    font-size: 1.5em;
+    
+}
